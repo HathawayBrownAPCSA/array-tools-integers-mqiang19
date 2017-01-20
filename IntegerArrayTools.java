@@ -117,15 +117,15 @@ public class IntegerArrayTools
     }
     return MaxNum;
   }
-   public int getMin ()
+  public int getMin() 
   {
-     int MinNums = 0;
-    for( int i=0; i< arrayCount; i ++)
-    {
-      if (arrayData[i] < MinNums)
-        MinNums = arrayData[i];
-    }
-    return MinNums;
+   int MinNum = arrayData[0];
+   for (int i = 0; i < arrayCount; i++) 
+   {
+    if (arrayData[i] < min)
+     MinNum = arrayData[i];
+   }
+   return MinNum;
   }
   public int getMaxIndex ()
   {

@@ -1,0 +1,25 @@
+Overall, the code looks good.
+The algorithms are correct and the 
+
+Except for one thing: it doesn't compile.
+Too much copy-and-paste perhaps, but your getMin method includes a reference
+  to min, which is not declared; you use MinNum.
+Which is also "spelled" wrong - it should start with a lowercase letter.  (same in getMax)
+
+I'm not quite sure how you didn't notice that this doesn't compile.
+
+ALSO: The instructions said to include javadoc comments.  Yours don't take advantage of that tool.  
+Put them in the JavaDoc format please (like the rest of the comments) and include @return comments.
+
+And while we're on formatting: the standard indentation is two spaces (even here on GitHub - see above)
+Other than getMax, your methods have only one space.  It's a good habit to follow established 
+conventions - it is a sign to other people that you know what you're doing.
+
+And also spacing: it's not as much of a standard, but it's genearlly considered good form to
+have spaces between the letters and the symbols.  You have
+   for( int i=0; i< arrayCount; i ++)
+Better is
+   for (int i = 0; i < arrayCount; i++)
+   
+Right now, 6/10.
+8/10 when corrected and resubmitted.

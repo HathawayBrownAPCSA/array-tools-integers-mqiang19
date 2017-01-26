@@ -23,3 +23,11 @@ Better is
    
 Right now, 6/10.
 8/10 when corrected and resubmitted.
+
+Update Jan. 26
+Generally much better!  Definitely looks better now.
+Javadoc comments are perfect.
+
+Still the "spelling" issue - your fields (variables) and methods should all be in lowerCamelCase.
+If you start with UpperCamelCase it looks like a class. 
+Make that a habit ...
